@@ -21,14 +21,22 @@ A simple and fun Streamlit app that recommends a playlist based on your current 
    git clone https://github.com/AkritiKuri/mood-playlist-app.git
    cd mood-playlist-app
 pip install streamlit pandas
+
 streamlit run app.py
+
 mood-playlist-app/
+
 │
+
 ├── app.py               # Streamlit app code
+
 ├── big_mood_songs.csv   # Dataset with songs and moods
+
 └── README.md            # Project info
 
+
 🎯 Future Improvements
+
 Use AI/NLP for better mood classification
 
 Add Spotify or Apple Music integration
@@ -38,4 +46,5 @@ Let users upload their own music/mood CSV
 Add Lottie animations & themes per mood
 
 🧑‍💻 Author
+
 Akriti Kuri
